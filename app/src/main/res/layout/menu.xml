@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="makhalibagas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+        android:id="@+id/bubble_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:elevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/colorRed"
+            app:bt_colorInactive="@color/colorRed"
+            app:bt_icon="@drawable/ic_baseline_home_24"
+            app:bt_title="Home" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorInactive="@color/colorBlue"
+            android:layout_marginTop="2dp"
+            app:bt_icon="@drawable/ic_baseline_search_24"
+            app:bt_title="Search" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_iconWidth="22dp"
+            app:bt_iconHeight="22dp"
+            android:layout_marginTop="2dp"
+            app:bt_colorInactive="@color/colorDark"
+            app:bt_icon="@drawable/ic_baseline_favorite_border_24"
+            app:bt_title="Favs" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorInactive="@color/colorGreen"
+            app:bt_iconWidth="22dp"
+            app:bt_iconHeight="22dp"
+            android:layout_marginTop="2dp"
+            app:bt_icon="@drawable/ic_baseline_shopping_cart_24"
+            app:bt_title="Shopping" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorInactive="@color/colorPurple"
+            android:layout_marginTop="2dp"
+            app:bt_icon="@drawable/ic_round_supervisor_account_24"
+            app:bt_title="People" />
+
+
+    </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

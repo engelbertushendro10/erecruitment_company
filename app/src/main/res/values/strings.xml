@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">c_recruitmen</string>
+    <string name="logo">e-recruitment</string>
+    <string name="version">VERSION 1.0</string>
+    <string name="signin">Sign in</string>
+    <string name="email_l">Insert Email</string>
+    <string name="password">Insert Pasword</string>
+    <string name="forget_password">Forget Passsword ?</string>
+    <string name="or">OR</string>
+    <string name="register">Register</string>
+</resources>
